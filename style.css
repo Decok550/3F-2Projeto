@@ -1,5 +1,16 @@
 :root{
-    --cor-de-fundo: #9CDBA6;
+    --cor-de-fundo: #468585;
     --cor-primaria: #50B498;
-    --cor-secundaria: #468585;
+    --cor-secundaria: #9CDBA6;
+    --fonte: "Permanent Marker", cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    height: 100vh;
+    font-family: var(--fonte);
 }
