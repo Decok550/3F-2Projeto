@@ -1,5 +1,5 @@
 :root{
-    --cor-de-fundo: #468585;
+    --cor-de-fundo: #ffffff;
     --cor-primaria: #50B498;
     --cor-secundaria: #9CDBA6;
     --fonte: "Permanent Marker", cursive;
@@ -13,4 +13,34 @@ body{
     color: var(--cor-primaria);
     height: 100vh;
     font-family: var(--fonte);
+}
+
+header{
+    background-color: var(--cor-primaria);
+    text-align: center;
+}
+
+h1{
+    color: var(--cor-de-fundo);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+
+}
+
+nav a{
+    text-decoration:overline;
+    color: var(--cor-de-fundo);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+nav a:hover{
+text-decoration: underline;
+transform: scale(1.3);
+transition: transform 0.3s;
 }
