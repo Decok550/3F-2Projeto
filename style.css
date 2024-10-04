@@ -1,7 +1,7 @@
 :root{
     --cor-de-fundo: #ffffff;
     --cor-primaria: #50B498;
-    --cor-secundaria: #9CDBA6;
+    --cor-secundaria: #209e35;
     --fonte: "Permanent Marker", cursive;
 }
 *{
@@ -43,4 +43,25 @@ nav a:hover{
 text-decoration: underline;
 transform: scale(1.3);
 transition: transform 0.3s;
+}
+span{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+.footer{
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+    text-align: center;
+}
+
+.graficos-container{
+
+    margin: 5rem;
+
+}
+.graficos-texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-secundaria) solid 2px;
 }
