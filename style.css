@@ -48,7 +48,7 @@ span{
     color: var(--cor-secundaria);
     font-weight: bold;
 }
-.footer{
+footer{
     background-color: var(--cor-primaria);
     color: var(--cor-de-fundo);
     text-align: center;
