@@ -25,7 +25,7 @@ async function quantidadDeUsuarios(){
             x:0,
             font:{
                 color: getCSS('--cor-primaria'),
-                family: getCSS('--font'),
+                family: getCSS('--fonte'),
                 size: 30
             }
         }
